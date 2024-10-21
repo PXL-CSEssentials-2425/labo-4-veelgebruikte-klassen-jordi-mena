@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <TextBlock Margin="20" FontSize="20">Username</TextBlock>
-        <TextBox Name="userNameTextBox" Margin="20 0" FontSize="20"></TextBox>
+        <TextBox Name="userNameTextBox" Margin="20 0" FontSize="20" TextChanged="userNameTextBox_TextChanged"></TextBox>
         <TextBlock Margin="20" FontSize="20">Password</TextBlock>
-        <TextBox Name="passwordTextBox" Margin="20 0 20 20" FontSize="20"></TextBox>
+        <TextBox Name="passwordTextBox" Margin="20 0 20 20" FontSize="20" TextChanged="passwordTextBox_TextChanged"></TextBox>
         <Button Name="passwordMeterButton" Margin="20" FontSize="20" Click="passwordMeterButton_Click">
             Calculate Password Strength</Button>
         <TextBlock Name="resultTextBlock" Margin="20" FontSize="16"
